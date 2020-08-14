@@ -14,6 +14,8 @@ public class SecondActivity extends AppCompatActivity {
 
     private FragmentOne fragmentOne = new FragmentOne();
     private FragmentTwo fragmentTwo = new FragmentTwo();
+
+    //TODO write how to identify by app weather it's a phone or a tablet itself and fetch the boolean here
     private boolean phone = false;
 
     @Override
